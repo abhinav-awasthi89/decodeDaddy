@@ -1,0 +1,56 @@
+.hidden {
+  transform: translateY(120%);
+}
+
+.phone {
+  position: relative;
+  top:-10px;
+  width: 15vw;
+  height: 60vh;
+  position: relative;
+  right: -30vw;
+  /* right: 0vw; */
+}
+
+
+.ring {
+  position: absolute;
+  /* top:0px; */
+  bottom: 7vh;
+  left: 38%;
+  width: 57vh;
+  height: 55vh;
+}
+.matrix{
+  position: absolute;
+  top:102px;
+  opacity: 0.03;
+  /* top: 50%; */
+  left : 29%;
+  width: 97vh;
+  height: 65vh;
+}
+
+@media screen and (max-width: 1120px) {
+  .matrix{
+    left : 59%;
+  }
+  .ring{
+    left:58%;
+  }
+  .phone{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .matrix{
+    display: none;
+  }
+  .ring{
+    display: none;
+  }
+  .phone{
+    display: none;
+  }
+}

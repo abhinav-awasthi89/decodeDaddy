@@ -1,0 +1,12 @@
+.divContainer {
+    background: rgb(0, 0, 0);
+    width: 80vw;
+    height: 500px;
+    margin: 100px auto;
+    /* margin-top: 100px; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    transform-origin: 0px 0px;
+    touch-action: pan-x pan-y pinch-zoom;
+  }
+  

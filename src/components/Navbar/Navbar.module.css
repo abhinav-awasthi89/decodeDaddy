@@ -1,0 +1,118 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 6%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: all 0.2s ease;
+}
+
+.logo {
+  text-transform: uppercase;
+  color: black;
+  font-size: 27.7px;
+  font-weight: 400;
+  cursor: pointer;
+  text-shadow: 1px 2px 0px rgb(181, 181, 181);
+  font-family: "Black Ops One", system-ui;
+}
+
+.menu {
+  border: 3px solid black;
+  border-radius: 32px;
+  padding: 15px 2px;
+  background-color: white;
+}
+
+@media screen and (max-width: 1120px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+  position: relative;
+  display: inline-flex;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  z-index: 80;
+  /* font-weight:100; */
+  letter-spacing: 1px;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 13px 2rem;
+  margin: -0.5rem -0.5rem;
+  mix-blend-mode: difference;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+  color: white;
+}
+
+.background {
+  width: 100px;
+  position: absolute;
+  top: 35px;
+  left: 273px;
+  z-index: 0;
+  border-radius: 32px;
+  height: 49px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+.options {
+  position: absolute;
+  opacity: 0;
+  width: 600px;
+  height: 60vh;
+  top: 100px;
+  left: 31vw;
+  border-radius: 20px;
+  color: black;
+  text-align: center;
+  border: 3px solid black;
+  background-color: white;
+  z-index: 100;
+  transition: opacity 0.3s ease-in;
+}
+
+.login {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  height: 60px;
+  padding: 0px 26px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.login:hover {
+  color: white;
+  border-radius: 25px;
+  transform: scale(1.1);
+}

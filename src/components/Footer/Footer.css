@@ -1,0 +1,105 @@
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  #footer{
+    width: 95%;
+    border-radius: 30px;
+    background-color: black;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em 0;
+    
+    overflow: hidden;
+  }
+  
+  .foot-tab1{
+    width: 90%;
+  
+  }
+  
+  #connect{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+  }
+  
+  .logo2{
+    height: 8em;
+    padding: 0.5em;
+  }
+  
+  #logo3{
+    height: 7em;
+    padding: 0.5em;
+  }
+  
+  #copyright{
+    font-size: 1.2em;
+    font-weight: 5;
+    color: white;
+  }
+  
+  .icon{
+    width: 3em;
+    height: 3em;
+    padding: 0.5em;
+    /* cursor: pointer; */
+  }
+  
+  .tab2-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    background: url('../assets/images/grid2.png') center no-repeat;
+    opacity: 0.7;
+    background-size: auto;
+    padding: 2em 2em 4em 3em;
+  }
+  
+  .foot-tab2{
+    width: 50%;
+    height: auto;
+    color: white;
+  }
+  
+  .foot-tab2 tr{
+    font-weight: 500;
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  .foot-tab2 a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  #tabs{
+    font-size: 1.5em;
+  }
+  
+  #cols{
+    padding-left: 20%;
+    /* margin-right: 1%; */
+  }
+  
+  .foot-log{
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+  
+  .foot-tab2 td{
+    padding-left: 2em;
+    /* padding-right: 2em; */
+  }
+  
