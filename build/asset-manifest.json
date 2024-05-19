@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be43e657.css",
+    "main.js": "/static/js/main.0a943ccf.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/linkedin-logo.png": "/static/media/linkedin-logo.5be351e0a45fe2fa7953.png",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/6.png": "/static/media/6.ddb9670985f993303c3b.png",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/instagram-logo.jpg": "/static/media/instagram-logo.f7fad969eff824620585.jpg",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/index.html",
+    "main.be43e657.css.map": "/static/css/main.be43e657.css.map",
+    "main.0a943ccf.js.map": "/static/js/main.0a943ccf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be43e657.css",
+    "static/js/main.0a943ccf.js"
+  ]
+}
